@@ -1,6 +1,6 @@
 @import url(https://gilbn.github.io/theme.park/CSS/themes/sonarr/sonarr-base.css);
 :root {
-  position: fixed;
+  /*position: fixed;*/
   top: 0px;
   left: 0px;
   height: 100%;
