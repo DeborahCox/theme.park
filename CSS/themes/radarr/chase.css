@@ -1,0 +1,28 @@
+@import url(https://gilbn.github.io/theme.park/CSS/themes/radarr/radarr-base.css);
+:root {
+  --main-bg-color: radial-gradient(ellipse at center, #47918a 0%, #0b3161 100%)
+    center center/cover no-repeat fixed;
+  --modal-bg-color: radial-gradient(ellipse at top, #47918a 0%, #0b3161 100%)
+    center center/cover no-repeat fixed;
+
+  --calendar-in-cinemas: #35c5f4;
+  --calendar-missing: #d9534f;
+  --calendar-announced: #337ab7;
+  --calendar-downloaded: #5cb85c;
+  --calendar-downloading: #7932ea;
+  --calendar-unmonitored: grey;
+
+  --button-color: #009688;
+  --button-color-hover: #12afa0;
+  --accent-color: #009688;
+  --accent-color-hover: #12afa0;
+  --queue-color: #009688;
+}
+
+@media only screen and (max-width: 768px) {
+  .PageSidebar-sidebarContainer-3Hxpq {
+    background: rgba(0, 0, 0, 0.25) !important;
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+  }
+}
